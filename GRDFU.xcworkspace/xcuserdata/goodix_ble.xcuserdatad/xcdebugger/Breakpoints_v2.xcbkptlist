@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D68BB79E-1A95-493B-B5AD-AE796557FCC4"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EC67B69-9937-4F04-AA2D-6C092C7BF1A1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/fastdfu/FastDfu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "cancel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8176C8D0-087B-42F5-962D-99D56122FFBF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/fastdfu/FastDfu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "cancel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3DC3376-E4AD-41C1-B820-CAE26BA34515"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "316"
+            endingLineNumber = "316"
+            landmarkName = "programStart(dfuMode:dfuFw:address:isExFlash:dfuVersion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF2CAD71-9F40-40B2-8CAA-D1D97A413AF5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "317"
+            endingLineNumber = "317"
+            landmarkName = "programStart(dfuMode:dfuFw:address:isExFlash:dfuVersion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BF2CAD71-9F40-40B2-8CAA-D1D97A413AF5 - 2c14a784ae050972"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.programStart(dfuMode: Swift.Int, dfuFw: GRDFUSDK2.GR5xxxDFU2.FirmwareAndResource, address: Swift.UInt32, isExFlash: Swift.Bool) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "297"
+                  endingLineNumber = "297"
+                  offsetFromSymbolStart = "1192">
+               </Location>
+               <Location
+                  uuid = "BF2CAD71-9F40-40B2-8CAA-D1D97A413AF5 - 55d913dc4cc84700"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.programStartFast(dfuMode: Swift.Int, dfuFw: GRDFUSDK2.GR5xxxDFU2.FirmwareAndResource, address: Swift.UInt32, isExFlash: Swift.Bool) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "315"
+                  endingLineNumber = "315"
+                  offsetFromSymbolStart = "532">
+               </Location>
+               <Location
+                  uuid = "BF2CAD71-9F40-40B2-8CAA-D1D97A413AF5 - 2c14a784ae0507ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.programStart(dfuMode: Swift.Int, dfuFw: GRDFUSDK2.GR5xxxDFU2.FirmwareAndResource, address: Swift.UInt32, isExFlash: Swift.Bool) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "317"
+                  endingLineNumber = "317"
+                  offsetFromSymbolStart = "1192">
+               </Location>
+               <Location
+                  uuid = "BF2CAD71-9F40-40B2-8CAA-D1D97A413AF5 - f3aad7b2915fda7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.programStart(dfuMode: Swift.Int, dfuFw: GRDFUSDK2.GR5xxxDFU2.FirmwareAndResource, address: Swift.UInt32, isExFlash: Swift.Bool, dfuVersion: Swift.UInt32) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "319"
+                  endingLineNumber = "319"
+                  offsetFromSymbolStart = "1200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E23DDE0D-4796-40B7-8550-DC688017FF94"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "411"
+            endingLineNumber = "411"
+            landmarkName = "programFlash(dfuMode:dfuFw:address:isExFlash:listener:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E23DDE0D-4796-40B7-8550-DC688017FF94 - 10470362285160c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.programFlash(dfuMode: Swift.Int, dfuFw: GRDFUSDK2.GR5xxxDFU2.FirmwareAndResource, address: Swift.UInt32, isExFlash: Swift.Bool, listener: Swift.Optional&lt;(Swift.Int) -&gt; ()&gt;) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "387"
+                  endingLineNumber = "387"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "E23DDE0D-4796-40B7-8550-DC688017FF94 - 1047036228511c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.programFlash(dfuMode: Swift.Int, dfuFw: GRDFUSDK2.GR5xxxDFU2.FirmwareAndResource, address: Swift.UInt32, isExFlash: Swift.Bool, listener: Swift.Optional&lt;(Swift.Int) -&gt; ()&gt;) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "408"
+                  endingLineNumber = "408"
+                  offsetFromSymbolStart = "1640">
+               </Location>
+               <Location
+                  uuid = "E23DDE0D-4796-40B7-8550-DC688017FF94 - 1047036228511a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.programFlash(dfuMode: Swift.Int, dfuFw: GRDFUSDK2.GR5xxxDFU2.FirmwareAndResource, address: Swift.UInt32, isExFlash: Swift.Bool, listener: Swift.Optional&lt;(Swift.Int) -&gt; ()&gt;) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "407"
+                  endingLineNumber = "407"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "E23DDE0D-4796-40B7-8550-DC688017FF94 - 1047036228511e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.programFlash(dfuMode: Swift.Int, dfuFw: GRDFUSDK2.GR5xxxDFU2.FirmwareAndResource, address: Swift.UInt32, isExFlash: Swift.Bool, listener: Swift.Optional&lt;(Swift.Int) -&gt; ()&gt;) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "409"
+                  endingLineNumber = "409"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "E23DDE0D-4796-40B7-8550-DC688017FF94 - 104703622851124"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.programFlash(dfuMode: Swift.Int, dfuFw: GRDFUSDK2.GR5xxxDFU2.FirmwareAndResource, address: Swift.UInt32, isExFlash: Swift.Bool, listener: Swift.Optional&lt;(Swift.Int) -&gt; ()&gt;) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "411"
+                  endingLineNumber = "411"
+                  offsetFromSymbolStart = "864">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D03ADA1-087A-41E1-B940-298B3E530829"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "672"
+            endingLineNumber = "672"
+            landmarkName = "updateResource(dfuData:startAddress:isFastMode:isExtFlash:listener:ctrlCmd:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7D03ADA1-087A-41E1-B940-298B3E530829 - 13ad2a8ccc280c4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.updateResource(dfuData: Foundation.Data, startAddress: Swift.UInt32, isFastMode: Swift.Bool, isExtFlash: Swift.Bool, listener: Swift.Optional&lt;GRDFUSDK2.DfuListener&gt;, ctrlCmd: Swift.Optional&lt;Foundation.Data&gt;) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "673"
+                  endingLineNumber = "673"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "7D03ADA1-087A-41E1-B940-298B3E530829 - 13ad2a8ccc280c08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.updateResource(dfuData: Foundation.Data, startAddress: Swift.UInt32, isFastMode: Swift.Bool, isExtFlash: Swift.Bool, listener: Swift.Optional&lt;GRDFUSDK2.DfuListener&gt;, ctrlCmd: Swift.Optional&lt;Foundation.Data&gt;) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "671"
+                  endingLineNumber = "671"
+                  offsetFromSymbolStart = "320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C235DA4E-4316-4B47-8F81-FB8F8F96BE8E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/fastdfu/FastDfu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "launchDfu(central:targetDevice:dfuMode:dfuData:address:isExtFlash:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BCD9D9D-B53D-4023-BD24-4438223FB0D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/fastdfu/FastDfu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "launchDfu(central:targetDevice:dfuMode:dfuData:address:isExtFlash:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B259555B-D365-46B3-B1E0-3EF1BF5F1305"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/fastdfu/FastDfuProfile.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "bondTo(blockingBle:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B259555B-D365-46B3-B1E0-3EF1BF5F1305 - ff04cb87b6cb7d7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () -&gt; () in GRDFUSDK2.FastDfu.launchDfu(central: Swift.Optional&lt;__C.CBCentralManager&gt;, targetDevice: __C.CBPeripheral, dfuMode: Swift.UInt32, dfuData: Foundation.Data, address: Swift.UInt32, isExtFlash: Swift.Bool) -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/fastdfu/FastDfuProfile.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "2928">
+               </Location>
+               <Location
+                  uuid = "B259555B-D365-46B3-B1E0-3EF1BF5F1305 - ce55b9844d0f60a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.FastDfuProfile.bondTo(blockingBle: libcomx.BlockingBLE) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/fastdfu/FastDfuProfile.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B64E9B0E-6027-4E64-B85D-F0BC3BDD996F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/EasyDfu2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "launchDfu(central:targetDevice:dfuMode:dfuData:address:isExtFlash:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DD8D3B9-237E-4146-BD75-CB33D160EDCE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUDemo/GRDFUDemo/SimpleBleScannerVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "centralManagerDidUpdateState(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8DD8D3B9-237E-4146-BD75-CB33D160EDCE - b70a3ae7828ecd30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUDemo.SimpleBleScannerVC.centralManagerDidUpdateState(__C.CBCentralManager) -&gt; ()"
+                  moduleName = "GRDFUDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUDemo/GRDFUDemo/SimpleBleScannerVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "8DD8D3B9-237E-4146-BD75-CB33D160EDCE - b70a3ae7828ecd76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUDemo.SimpleBleScannerVC.centralManagerDidUpdateState(__C.CBCentralManager) -&gt; ()"
+                  moduleName = "GRDFUDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUDemo/GRDFUDemo/SimpleBleScannerVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "8DD8D3B9-237E-4146-BD75-CB33D160EDCE - b70a3ae7828ecdca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUDemo.SimpleBleScannerVC.centralManagerDidUpdateState(__C.CBCentralManager) -&gt; ()"
+                  moduleName = "GRDFUDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUDemo/GRDFUDemo/SimpleBleScannerVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACA17246-1D6F-4D86-B7A0-8DBD0EFA01E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "923"
+            endingLineNumber = "923"
+            landmarkName = "init(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ACA17246-1D6F-4D86-B7A0-8DBD0EFA01E4 - 5dff02e5b0d7e145"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.Imginfo.init(data: Foundation.Data) -&gt; GRDFUSDK2.GR5xxxDFU2.Imginfo"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "910"
+                  endingLineNumber = "910"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "ACA17246-1D6F-4D86-B7A0-8DBD0EFA01E4 - 5dff02e5b0d7e107"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.Imginfo.init(data: Foundation.Data) -&gt; GRDFUSDK2.GR5xxxDFU2.Imginfo"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "912"
+                  endingLineNumber = "912"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "ACA17246-1D6F-4D86-B7A0-8DBD0EFA01E4 - 5dff02e5b0d7e01f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.Imginfo.init(data: Foundation.Data) -&gt; GRDFUSDK2.GR5xxxDFU2.Imginfo"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "920"
+                  endingLineNumber = "920"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D20402A4-08F1-4017-9A5F-15E1DA847881"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/fastdfu/FastDfu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C0C3A88-B6D4-4C30-874B-19303C0D3DFE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUDemo/GRDFUDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "dfuStopWithError(errorMsg:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16F0F0C6-FF85-45D9-ADA7-60A2FA274796"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "libcomx/libcomx/ble/BlockingBLE.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "650"
+            endingLineNumber = "650"
+            landmarkName = "waitResult(targetCodes:timeout:waiter:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "411D7AE0-00BD-402F-96B3-1604E6C79959"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
+            landmarkName = "programStart(dfuMode:dfuFw:address:isExFlash:dfuVersion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "944D9203-D28F-4BCE-8FF2-E37FB21DCB70"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "618"
+            endingLineNumber = "618"
+            landmarkName = "updateFirmware(dfuData:isCopyMode:copyAddress:isFastMode:listener:ctrlCmd:reconnectScanFilter:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "944D9203-D28F-4BCE-8FF2-E37FB21DCB70 - da9a0e2aa44bba65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.updateFirmware(dfuData: Foundation.Data, isCopyMode: Swift.Bool, copyAddress: Swift.UInt32, isFastMode: Swift.Bool, listener: Swift.Optional&lt;GRDFUSDK2.DfuListener&gt;, ctrlCmd: Swift.Optional&lt;Foundation.Data&gt;, reconnectScanFilter: Swift.Optional&lt;(__C.CBPeripheral, Swift.Dictionary&lt;Swift.String, Any&gt;, __C.NSNumber) -&gt; Swift.Bool&gt;) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "619"
+                  endingLineNumber = "619"
+                  offsetFromSymbolStart = "5068">
+               </Location>
+               <Location
+                  uuid = "944D9203-D28F-4BCE-8FF2-E37FB21DCB70 - da9a0e2aa44bbaa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUSDK2.GR5xxxDFU2.updateFirmware(dfuData: Foundation.Data, isCopyMode: Swift.Bool, copyAddress: Swift.UInt32, isFastMode: Swift.Bool, listener: Swift.Optional&lt;GRDFUSDK2.DfuListener&gt;, ctrlCmd: Swift.Optional&lt;Foundation.Data&gt;, reconnectScanFilter: Swift.Optional&lt;(__C.CBPeripheral, Swift.Dictionary&lt;Swift.String, Any&gt;, __C.NSNumber) -&gt; Swift.Bool&gt;) throws -&gt; ()"
+                  moduleName = "GRDFUSDK2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "617"
+                  endingLineNumber = "617"
+                  offsetFromSymbolStart = "5068">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECCFF61A-050F-49C3-BC31-53D935ACB29C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUDemo/GRDFUDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "disableAllViews(disable:butExceptCanncelButton:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ECCFF61A-050F-49C3-BC31-53D935ACB29C - dfde8108db63ec1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUDemo.ViewController.disableAllViews(disable: Swift.Bool, butExceptCanncelButton: Swift.Bool) -&gt; ()"
+                  moduleName = "GRDFUDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUDemo/GRDFUDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "556">
+               </Location>
+               <Location
+                  uuid = "ECCFF61A-050F-49C3-BC31-53D935ACB29C - dfde8108db63ec1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUDemo.ViewController.disableAllViews(disable: Swift.Bool, butExceptCanncelButton: Swift.Bool) -&gt; ()"
+                  moduleName = "GRDFUDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUDemo/GRDFUDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "724">
+               </Location>
+               <Location
+                  uuid = "ECCFF61A-050F-49C3-BC31-53D935ACB29C - dfde8108db63ec7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GRDFUDemo.ViewController.disableAllViews(disable: Swift.Bool, butExceptCanncelButton: Swift.Bool) -&gt; ()"
+                  moduleName = "GRDFUDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goodix_ble/wangzhi2/Project/BLE_DFU_LIB_IOS/GRDFUDemo/GRDFUDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "724">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEC03ECA-C0F7-420F-AF39-71F1C18E1DCD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUDemo/GRDFUDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "dfuCancelled(progress:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F8D9BE9-8778-418D-87F7-CAA5A535681A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUDemo/GRDFUDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "dfuComplete()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63F31D87-19A6-4079-BA9B-45A12C99EAD2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUDemo/GRDFUDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
+            landmarkName = "easyButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27952CF0-0051-408B-8FD0-F303DE162B27"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "639"
+            endingLineNumber = "639"
+            landmarkName = "updateFirmware(dfuData:isCopyMode:copyAddress:isFastMode:listener:ctrlCmd:reconnectScanFilter:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64898B78-7B35-40F4-9BD2-C5DD0F07ED40"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "562"
+            endingLineNumber = "562"
+            landmarkName = "updateFirmware(dfuData:isCopyMode:copyAddress:isFastMode:listener:ctrlCmd:reconnectScanFilter:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18689AB2-7929-459E-885A-C0EF98B1D7D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "802"
+            endingLineNumber = "802"
+            landmarkName = "checkOverlapNew(db:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E05A68C6-17B3-4FC3-9AA0-40D37C072D87"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "788"
+            endingLineNumber = "788"
+            landmarkName = "checkOverlapNew(db:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "366BAD3C-1A09-4992-843C-C0942F749542"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1051"
+            endingLineNumber = "1051"
+            landmarkName = "init(_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12F9FE1C-FFAD-49C1-B0DF-B5EB7547133E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GRDFUSDK2/GRDFUSDK2/dfu/easydfu2/GR5xxxDFU2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1055"
+            endingLineNumber = "1055"
+            landmarkName = "memoryOverlapCheck(src:dst:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

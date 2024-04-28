@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Simple Ble ScannerVC-->
+        <scene sceneID="DhS-aF-NiK">
+            <objects>
+                <viewController storyboardIdentifier="SimpleBleScanner" id="NAc-P5-n1A" customClass="SimpleBleScannerVC" customModule="GRDFUDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pIy-2C-wyO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hlQ-wv-MrV" userLabel="ScanResultTableView">
+                                <rect key="frame" x="0.0" y="20" width="375" height="469"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="NAc-P5-n1A" id="cJ3-bn-pBg"/>
+                                    <outlet property="delegate" destination="NAc-P5-n1A" id="QYo-J4-Qo4"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Db-eL-ziA" userLabel="scanBtn">
+                                <rect key="frame" x="16" y="601" width="343" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="fja-3b-8pj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="SCAN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClickScanBtn:" destination="NAc-P5-n1A" eventType="primaryActionTriggered" id="nID-ff-lg0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Filter:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raK-FD-FQN" userLabel="nameLabel">
+                                <rect key="frame" x="16" y="499" width="92" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RSSI Filter:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbj-4h-9rU" userLabel="rssiLabel">
+                                <rect key="frame" x="16" y="530" width="83" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-127dbm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1L-vw-cPY" userLabel="rssiValueLabel">
+                                <rect key="frame" x="109" y="530" width="68" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.40000000000000002" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="nGL-vE-TRG" userLabel="rssiSlider">
+                                <rect key="frame" x="14" y="551" width="347" height="31"/>
+                                <connections>
+                                    <action selector="onRssiSliderChanged:" destination="NAc-P5-n1A" eventType="valueChanged" id="YVl-t5-Rva"/>
+                                </connections>
+                            </slider>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="EVS-d5-5Sd" userLabel="nameInput">
+                                <rect key="frame" x="116" y="492.5" width="243" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="ASCIICapableNumberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="NAc-P5-n1A" id="Zax-2r-mCs"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hkL-9F-xJe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="F1L-vw-cPY" firstAttribute="leading" secondItem="wbj-4h-9rU" secondAttribute="trailing" constant="10" id="1je-8o-Tjd"/>
+                            <constraint firstItem="hlQ-wv-MrV" firstAttribute="bottom" secondItem="raK-FD-FQN" secondAttribute="top" constant="-10" id="27H-Mp-IOZ"/>
+                            <constraint firstItem="hkL-9F-xJe" firstAttribute="trailing" secondItem="nGL-vE-TRG" secondAttribute="trailing" constant="16" id="8GD-Gh-Of6"/>
+                            <constraint firstItem="raK-FD-FQN" firstAttribute="bottom" secondItem="wbj-4h-9rU" secondAttribute="top" constant="-10" id="9Cp-LY-wCU"/>
+                            <constraint firstItem="nGL-vE-TRG" firstAttribute="bottom" secondItem="3Db-eL-ziA" secondAttribute="top" constant="-20" id="KoG-AB-4NN"/>
+                            <constraint firstItem="hkL-9F-xJe" firstAttribute="trailing" secondItem="3Db-eL-ziA" secondAttribute="trailing" constant="16" id="LxM-WR-qWe"/>
+                            <constraint firstItem="wbj-4h-9rU" firstAttribute="bottom" secondItem="nGL-vE-TRG" secondAttribute="top" id="N1O-sY-J2m"/>
+                            <constraint firstItem="EVS-d5-5Sd" firstAttribute="centerY" secondItem="raK-FD-FQN" secondAttribute="centerY" id="NES-Yb-rQ4"/>
+                            <constraint firstItem="3Db-eL-ziA" firstAttribute="leading" secondItem="hkL-9F-xJe" secondAttribute="leading" constant="16" id="T4n-UJ-fGM"/>
+                            <constraint firstItem="hlQ-wv-MrV" firstAttribute="leading" secondItem="hkL-9F-xJe" secondAttribute="leading" id="bpa-T6-7Uw"/>
+                            <constraint firstItem="hlQ-wv-MrV" firstAttribute="top" secondItem="hkL-9F-xJe" secondAttribute="top" id="crH-VA-gsx"/>
+                            <constraint firstItem="wbj-4h-9rU" firstAttribute="leading" secondItem="hkL-9F-xJe" secondAttribute="leading" constant="16" id="gGS-A5-n9b"/>
+                            <constraint firstItem="EVS-d5-5Sd" firstAttribute="leading" secondItem="raK-FD-FQN" secondAttribute="trailing" constant="8" symbolic="YES" id="hhU-tb-MOm"/>
+                            <constraint firstItem="F1L-vw-cPY" firstAttribute="centerY" secondItem="wbj-4h-9rU" secondAttribute="centerY" id="ieP-fC-I8A"/>
+                            <constraint firstItem="hkL-9F-xJe" firstAttribute="bottom" secondItem="3Db-eL-ziA" secondAttribute="bottom" constant="16" id="me7-z2-S0S"/>
+                            <constraint firstItem="raK-FD-FQN" firstAttribute="leading" secondItem="hkL-9F-xJe" secondAttribute="leading" constant="16" id="vqH-E5-5xN"/>
+                            <constraint firstItem="nGL-vE-TRG" firstAttribute="leading" secondItem="hkL-9F-xJe" secondAttribute="leading" constant="16" id="wjz-HZ-4WA"/>
+                            <constraint firstItem="hlQ-wv-MrV" firstAttribute="trailing" secondItem="hkL-9F-xJe" secondAttribute="trailing" id="x2g-3O-74L"/>
+                            <constraint firstItem="hkL-9F-xJe" firstAttribute="trailing" secondItem="EVS-d5-5Sd" secondAttribute="trailing" constant="16" id="xFb-km-uMb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Gu-XZ-MAF"/>
+                    <connections>
+                        <outlet property="nameFilterLabel" destination="raK-FD-FQN" id="ipG-Ug-5xT"/>
+                        <outlet property="nameInputTF" destination="EVS-d5-5Sd" id="56d-TR-7SJ"/>
+                        <outlet property="resultTableView" destination="hlQ-wv-MrV" id="lkr-qC-y0z"/>
+                        <outlet property="rssiFilterLabel" destination="wbj-4h-9rU" id="6YO-4b-RpJ"/>
+                        <outlet property="rssiValueLabel" destination="F1L-vw-cPY" id="cRI-n2-du9"/>
+                        <outlet property="rssiValueSlider" destination="nGL-vE-TRG" id="382-27-7MV"/>
+                        <outlet property="scanBtn" destination="3Db-eL-ziA" id="uFm-nq-16Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PD2-Fm-sqF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="810.39999999999998" y="-35.532233883058474"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
